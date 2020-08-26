@@ -8,12 +8,12 @@ class AppTheme {
       backgroundColor: LightColor.background,
       primaryColor: LightColor.background,
       cardTheme: CardTheme(color: LightColor.background),
-      textTheme: TextTheme(bodyText1: TextStyle(color: LightColor.black)),
+      textTheme: TextTheme(body1: TextStyle(color: LightColor.black)),
       iconTheme: IconThemeData(color: LightColor.iconColor),
       bottomAppBarColor: LightColor.background,
       dividerColor: LightColor.lightGrey,
       primaryTextTheme:
-          TextTheme(bodyText1: TextStyle(color: LightColor.titleTextColor)));
+          TextTheme(body1: TextStyle(color: LightColor.titleTextColor)));
 
   static TextStyle titleStyle =
       const TextStyle(color: LightColor.titleTextColor, fontSize: 16);
